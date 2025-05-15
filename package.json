@@ -1,0 +1,30 @@
+{
+  "name": "my_rag_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "langchain_setup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranjithnrjk/my_rag_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ranjithnrjk/my_rag_app/issues"
+  },
+  "homepage": "https://github.com/ranjithnrjk/my_rag_app#readme",
+  "type": "module",
+  "dependencies": {
+    "@langchain/community": "^0.3.42",
+    "@langchain/core": "^0.3.55",
+    "@langchain/google-genai": "^0.2.9",
+    "@supabase/supabase-js": "^2.49.4",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
+}
