@@ -36,6 +36,9 @@ rag-chatbot/
 │   ├── retriever.js
 │   └── combineDocuments.js
 │
+├── embed/
+│   └── vectorDB_create.js
+│
 ├── langchain_setup.js
 ├── server.js
 ├── .env
